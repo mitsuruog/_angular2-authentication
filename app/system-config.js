@@ -1,6 +1,7 @@
 System.config({
   map: {
     'rxjs': '/node_modules/rxjs',
+    'angular2-jwt': '/node_modules/angular2-jwt',
     '@angular': '/node_modules/@angular'
   },
   packages: {
@@ -28,11 +29,24 @@ System.config({
       main: 'index.js',
       defaultExtension: 'js'
     },
+    '@angular/http': {
+      main: 'index.js',
+      defaultExtension: 'js'
+    },
     '@angular/router': {
       main: 'index.js',
       defaultExtension: 'js'
     },
+    '@angular/router-deprecated': {
+      main: 'index.js',
+      defaultExtension: 'js'
+    },
     'rxjs': {
+      main: 'Rx.js',
+      defaultExtension: 'js'
+    },
+    'angular2-jwt': {
+      main: 'angular2-jwt.js',
       defaultExtension: 'js'
     }
   }
